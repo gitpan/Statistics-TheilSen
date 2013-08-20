@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Statistics-TheilSen
-version:            0.01
+version:            0.02
 abstract:           Perl implementation of Theil Sen Estimator
 author:
     - Jimi Wills <jimi@webu.co.uk>

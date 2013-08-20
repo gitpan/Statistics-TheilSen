@@ -5,6 +5,7 @@ use strict;
 use Carp;
 use warnings FATAL => 'all';
 require Exporter;
+
 our @ISA = qw/Exporter/;
 use Statistics::QuickMedian qw/qmedian/;
 
@@ -16,11 +17,11 @@ Statistics::TheilSen - Perl implementation of Theil Sen Estimator
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -52,7 +53,7 @@ Statistics::QuickMedian.
 
 =head1 EXPORT/SUBROUTINES
 
-=item theilsen
+=head2 theilsen
 
 Accepts two list refs, the lists should be the same length.  They represent y and x series
 which will be the subject of the regression.  Returns a list of two 
