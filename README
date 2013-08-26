@@ -4,6 +4,8 @@ Pure Perl implementation of the Theil Sen estimator.
 
 CHANGES
 
+v0.03	20130826	Prerequisites added to Makefile.PL (shouldn't that be documented somewhere?)
+v0.02	20130819	Some bugs
 v0.01	20130819	First version
 
 
